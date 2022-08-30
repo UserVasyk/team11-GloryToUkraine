@@ -33,8 +33,17 @@
                 <form class="footer__form">
                     <h3 class="footer__form-title">Subscribe</h3>
                     <div class="footer__box-subscribe">
-                        <input name="email-subscribe" class="footer__form-input" type="email"
-                            placeholder="Enter your email">
+                        <div class="footer__box">
+                            <input required name="email-subscribe" class="footer__form-input" type="email"
+                                placeholder="Enter your email">
+                            <div class="footer__form-invalid">
+                                <img class="footer__form-icon" src="./images/images-kutsyi_vasyl/invalid-icon.png"
+                                    alt="invalid-icon">
+                                Not a valid email address (example@email.com)
+
+                            </div>
+                        </div>
+
                         <button class="footer__form-button" type="submit">
                             Subscribe
                         </button>
